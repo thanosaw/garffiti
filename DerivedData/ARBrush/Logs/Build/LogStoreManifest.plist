@@ -142,6 +142,40 @@
 			<key>uniqueIdentifier</key>
 			<string>2041B601-FF43-42D6-9F4B-632B4077F28B</string>
 		</dict>
+		<key>2DFAFE47-32A6-4EB6-AA04-16F5798DBD84</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2DFAFE47-32A6-4EB6-AA04-16F5798DBD84.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703890042.57183504</real>
+			<key>timeStoppedRecording</key>
+			<real>703890044.31208706</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>2DFAFE47-32A6-4EB6-AA04-16F5798DBD84</string>
+		</dict>
 		<key>3732E20B-89F7-4247-9BCB-EF60E97C9EA1</key>
 		<dict>
 			<key>className</key>
