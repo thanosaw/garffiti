@@ -9,35 +9,37 @@ import ARKit
 import simd
 import Photos
 
-
+//class ParamButton: UIButton{
+//    var params: Dictionary<String, Any>
+//    override init(frame: CGRect) {
+//        self.params = [:]
+//        super.init(frame: frame)
+//    }
+//
+//    required init?(coder aDecoder: NSCoder) {
+//        self.params = [:]
+//        super.init(coder: aDecoder)
+//    }
+//}
 
 func getRoundyButton(size: CGFloat = 100,
                      imageName : String,
-                     _ colorTop : UIColor ,
-                     _ colorBottom : UIColor ) -> UIButton {
-    
+                     _ color : UIColor) -> UIButton {
+
     let button = UIButton(frame: CGRect.init(x: 0, y: 0, width: size, height: size))
     button.clipsToBounds = true
     button.layer.cornerRadius = size / 2
-    
-    let gradient: CAGradientLayer = CAGradientLayer()
-    
-    gradient.colors = [colorTop.cgColor, colorBottom.cgColor]
-    gradient.startPoint = CGPoint(x: 1.0, y: 1.0)
-    gradient.endPoint = CGPoint(x: 0.0, y: 0.0)
-    gradient.frame = button.bounds
-    gradient.cornerRadius = size / 2
-    
-    button.layer.insertSublayer(gradient, at: 0)
-    
-    let image = UIImage.init(named: imageName )
+    button.tintColor = color
+
+    let image = UIImage.init(named: imageName)
     let imgView = UIImageView.init(image: image)
     imgView.center = CGPoint.init(x: button.bounds.size.width / 2.0, y: button.bounds.size.height / 2.0 )
     button.addSubview(imgView)
-    
+
     return button
-    
+
 }
+
 
 extension URL {
     
@@ -59,10 +61,18 @@ extension String {
     
 }
 
-
+extension UIColor {
+    var coreImageColor: CIColor {
+        return CIColor(color: self)
+    }
+    var components: (red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat) {
+        let coreImageColor = self.coreImageColor
+        return (coreImageColor.red, coreImageColor.green, coreImageColor.blue, coreImageColor.alpha)
+    }
+}
 
 @available(iOS 13.0, *)
-class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDelegate {
+class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDelegate, UIColorPickerViewControllerDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
     
@@ -70,9 +80,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
     var buttonDown = false
     
     var clearDrawingButton : UIButton!
-    var toggleModeButton : UIButton!
-    var recordButton : UIButton!
-    var saveButton: UIButton!
+    var colorButton : UIButton!
     
     var frameIdx = 0
     var splitLine = false
@@ -85,14 +93,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
     
     var tempVideoUrl : URL? = nil
     
-    enum ColorMode : Int {
-        case color
-        case normal
-        case rainbow
-    }
-    
     var currentColor : SCNVector3 = SCNVector3(1,0.5,0)
-    var colorMode : ColorMode = .rainbow
     
     // smooth the pointer position a bit
     var avgPos : SCNVector3! = nil
@@ -200,28 +201,13 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
     }
     
     func addButtons() {
-        
-        let c1 = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.4)
-        let c2 = UIColor(red: 0.6, green: 0.0, blue: 0.0, alpha: 0.4)
-        let c3 = UIColor(red: 0.0, green: 0.6, blue: 0.0, alpha: 0.4)
-        
-        saveButton = getRoundyButton(size: 55, imageName: "plus", c1, c3)
-        saveButton.addTarget(self, action:#selector(self.saveDrawing), for: .touchUpInside)
-        self.view.addSubview(saveButton)
-        
-        clearDrawingButton = getRoundyButton(size: 55, imageName: "stop", c1, c2)
+        clearDrawingButton = getRoundyButton(size: 30, imageName: "stop", UIColor.red)
         clearDrawingButton.addTarget(self, action:#selector(self.clearDrawing), for: .touchUpInside)
         self.view.addSubview(clearDrawingButton)
         
-        toggleModeButton = getRoundyButton(size: 55, imageName: "plus", c1, c3)
-        toggleModeButton.addTarget(self, action:#selector(self.toggleColorMode), for: .touchUpInside)
-        self.view.addSubview(toggleModeButton)
-        
-        recordButton = getRoundyButton(size: 55, imageName: "", UIColor.red.withAlphaComponent(0.5), UIColor.red.withAlphaComponent(0.5))
-        recordButton.addTarget(self, action:#selector(self.recordTapped), for: .touchUpInside)
-        recordButton.alpha = 0.5
-        self.view.addSubview(recordButton)
-        
+        colorButton = getRoundyButton(size: 30, imageName: "plus", UIColor.red)
+        colorButton.addTarget(self, action:#selector(self.pickColor), for: .touchUpInside)
+        self.view.addSubview(colorButton)
     }
     
     override func viewDidLayoutSubviews() {
@@ -231,19 +217,41 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
         let off : CGFloat = 50
         clearDrawingButton.center = CGPoint(x: sw - off, y: sh - off )
         
-        
-        toggleModeButton.center = CGPoint(x: off, y: sh - off)
-        
-        
-        recordButton.center = CGPoint(x: sw/2.0, y: sh - off)
+        colorButton.center = CGPoint(x: off, y: sh - off)
     }
     
     // MARK: - Buttons
     
-    @objc func toggleColorMode() {
+    @objc func pickColor() {
+        Haptics.strongBoom()
+        let colorPickerVC = UIColorPickerViewController()
+        colorPickerVC.delegate = self
+        present(colorPickerVC, animated: true)
+    }
+    
+    func colorPickerViewControllerDidFinish(_ viewController: UIColorPickerViewController) {
+//        let color = viewController.selectedColor
+//        let rgb = color.components
+//        self.currentColor = SCNVector3(rgb.red, rgb.green, rgb.blue)
+//        colorButton.tintColor = color
+    }
+    
+    func colorPickerViewControllerDidSelectColor(_ viewController: UIColorPickerViewController) {
+        let color = viewController.selectedColor
+        let rgb = color.components
+        self.currentColor = SCNVector3(rgb.red, rgb.green, rgb.blue)
+        colorButton.tintColor = color
+    }
+
+    @objc func saveDrawing() {
+        Haptics.strongBoom()
+        // Save drawing into FireBase here:
+    }
+
+    
+    @objc func setBrushMode() {
         
         Haptics.strongBoom()
-        self.colorMode = ColorMode(rawValue: (self.colorMode.rawValue + 1) % 3)!
         
     }
     
@@ -252,95 +260,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
         Haptics.threeWeakBooms()
         vertBrush.clear()
     }
-    
-    @objc func saveDrawing() {
-        Haptics.strongBoom()
-        // Save drawing into FireBase here:
-    }
-    
-    
-    @objc func recordTapped() {
-        
-        if let rec = self.videoRecorder, rec.isRecording {
-            
-            rec.endRecording {
-                
-                Haptics.strongBoom()
-                
-                DispatchQueue.main.async {
-                    self.recordButton.alpha = 0.5
-                    self.exportRecordedVideo()
-                    self.recordingOrientation = nil
-                }
-            }
-            
-        } else {
-            
-            
-            let videoOutUrl = URL.documentsDirectory().appendingPathComponent("temp_video.mp4")
-            
-            if FileManager.default.fileExists(atPath: videoOutUrl.path) {
-                try! FileManager.default.removeItem(at: videoOutUrl)
-            }
-            
-            let size = self.metalLayer.drawableSize
-            
-            
-            Haptics.strongBoom()
-            
-            let rec = MetalVideoRecorder(outputURL: videoOutUrl, size: size)
-            rec?.startRecording()
-            
-            self.videoRecorder = rec
-            
-            self.recordButton.alpha = 1.0
-            
-            self.tempVideoUrl = videoOutUrl
-            
-            
-            
-            switch UIApplication.shared.statusBarOrientation {
-            case .landscapeLeft:
-                self.recordingOrientation = .landscapeLeft
-            case .landscapeRight:
-                self.recordingOrientation = .landscapeRight
-            case .portrait:
-                self.recordingOrientation = .portrait
-            case .portraitUpsideDown:
-                self.recordingOrientation = .portraitUpsideDown
-            case .unknown:
-                self.recordingOrientation = nil
-            }
-            
-        }
-        
-    }
-    
-    func exportRecordedVideo() {
-        
-        guard let videoUrl = self.tempVideoUrl else { return }
-        
-        PHPhotoLibrary.shared().performChanges({
-            
-            PHAssetChangeRequest.creationRequestForAssetFromVideo(atFileURL: videoUrl)
-            
-        }) { saved, error in
-            
-            if !saved {
-                
-                DispatchQueue.main.async {
-                    let alertController = UIAlertController(title: "Error saving vidoe", message: nil, preferredStyle: .alert)
-                    let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-                    alertController.addAction(defaultAction)
-                    self.present(alertController, animated: true, completion: nil)
-                }
-            } else {
-                print(" Video exported")
-            }
-        }
-        
-    }
-    
     
     // MARK: - Touch
     @objc func buttonTouchDown() {
@@ -401,26 +320,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
                     
                     lineRadius = lineRadius - (lineRadius - radius)*0.075
                     
-                    var color : SCNVector3
-                    
-                    switch colorMode {
-                        
-                        case .rainbow:
-                            
-                            let hue : CGFloat = CGFloat(fmodf(Float(vertBrush.points.count) / 30.0, 1.0))
-                            let c = UIColor.init(hue: hue, saturation: 0.95, brightness: 0.95, alpha: 1.0)
-                            var red : CGFloat = 0.0; var green : CGFloat = 0.0; var blue : CGFloat = 0.0;
-                            c.getRed(&red, green: &green, blue: &blue, alpha: nil)
-                            color = SCNVector3(red, green, blue)
-                            
-                        case .normal:
-                            // Hack: if the color is negative, use the normal as the color
-                            color = SCNVector3(-1, -1, -1)
-                            
-                        case .color:
-                            color = self.currentColor
-                    
-                    }
+                    let color : SCNVector3 = self.currentColor
                     
                     vertBrush.addPoint(avgPos,
                                        radius: lineRadius,
