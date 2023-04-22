@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>9589C952-68DD-497C-A253-15D57E16AED5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9589C952-68DD-497C-A253-15D57E16AED5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703830462.06662297</real>
+			<key>timeStoppedRecording</key>
+			<real>703830482.62109196</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>9589C952-68DD-497C-A253-15D57E16AED5</string>
+		</dict>
+		<key>D8412A06-BC75-41EB-9380-285465EC2A2B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D8412A06-BC75-41EB-9380-285465EC2A2B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703832096.25495601</real>
+			<key>timeStoppedRecording</key>
+			<real>703832106.27269197</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>D8412A06-BC75-41EB-9380-285465EC2A2B</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

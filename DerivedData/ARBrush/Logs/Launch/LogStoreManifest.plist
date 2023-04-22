@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>60CD4EF5-58D7-4ED5-97D7-6AE6B5978E1A</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>9589C952-68DD-497C-A253-15D57E16AED5</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.21_21-27-42--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703830462.06578803</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>60CD4EF5-58D7-4ED5-97D7-6AE6B5978E1A</string>
+		</dict>
+		<key>F7A518C4-5621-40FE-A76D-3AF214732F1B</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>D8412A06-BC75-41EB-9380-285465EC2A2B</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.21_21-54-56--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703832096.25480103</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>F7A518C4-5621-40FE-A76D-3AF214732F1B</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/andrewwang/Downloads/ARBrush-master/ARBrush/Shaders.metal \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/metal/ios/lib/clang/31001.667/include/metal/module.modulemap \
+  /Users/andrewwang/Downloads/ARBrush-master/ARBrush/ShaderTypes.h

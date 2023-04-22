@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "5f5a0f1f898e82ab5c6cc3ab10004d4360823a3ba08ed8397158ad489566eb46"
+build_start_time: [1682135776, 667222976]
+build_end_time: [1682135776, 685392856]
+inputs:
+  "/Users/andrewwang/Downloads/ARBrush-master/ARBrush/AppDelegate.swift": !private [1579800040, 0]
+  "/Users/andrewwang/Downloads/ARBrush-master/ARBrush/Haptics.swift": !private [1579800040, 0]
+  "/Users/andrewwang/Downloads/ARBrush-master/ARBrush/MetalVideoRecorder.swift": !private [1579800040, 0]
+  "/Users/andrewwang/Downloads/ARBrush-master/ARBrush/SCNVector3Extensions.swift": !private [1579800040, 0]
+  "/Users/andrewwang/Downloads/ARBrush-master/ARBrush/VertBrush.swift": !private [1579800040, 0]
+  "/Users/andrewwang/Downloads/ARBrush-master/ARBrush/ViewController.swift": !private [1579800040, 0]
+  "/Users/andrewwang/Downloads/ARBrush-master/ARBrush/float4x4+Extensions.swift": !private [1579800040, 0]
