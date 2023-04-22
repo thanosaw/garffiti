@@ -212,12 +212,13 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
     
     override func viewDidLayoutSubviews() {
         let sw = self.view.bounds.size.width
-        let sh = self.view.bounds.size.height
+       // let sh = self.view.bounds.size.height
+        let ySafe = self.view.safeAreaInsets.top
         
         let off : CGFloat = 50
-        clearDrawingButton.center = CGPoint(x: sw - off, y: sh - off )
+        clearDrawingButton.center = CGPoint(x: off, y: ySafe)
         
-        colorButton.center = CGPoint(x: off, y: sh - off)
+        colorButton.center = CGPoint(x: sw - off, y: ySafe)
     }
     
     // MARK: - Buttons
