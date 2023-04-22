@@ -201,7 +201,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
     }
     
     func addButtons() {
-        
         clearDrawingButton = getRoundyButton(size: 30, imageName: "stop", UIColor.red)
         clearDrawingButton.addTarget(self, action:#selector(self.clearDrawing), for: .touchUpInside)
         self.view.addSubview(clearDrawingButton)
@@ -243,6 +242,12 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
         self.currentColor = SCNVector3(rgb.red, rgb.green, rgb.blue)
         colorButton.tintColor = color
     }
+
+    @objc func saveDrawing() {
+        Haptics.strongBoom()
+        // Save drawing into FireBase here:
+    }
+
     
     @objc func setBrushMode() {
         
