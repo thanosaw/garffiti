@@ -72,6 +72,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
     var clearDrawingButton : UIButton!
     var toggleModeButton : UIButton!
     var recordButton : UIButton!
+    var saveButton: UIButton!
     
     var frameIdx = 0
     var splitLine = false
@@ -204,6 +205,10 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
         let c2 = UIColor(red: 0.6, green: 0.0, blue: 0.0, alpha: 0.4)
         let c3 = UIColor(red: 0.0, green: 0.6, blue: 0.0, alpha: 0.4)
         
+        saveButton = getRoundyButton(size: 55, imageName: "plus", c1, c3)
+        saveButton.addTarget(self, action:#selector(self.saveDrawing), for: .touchUpInside)
+        self.view.addSubview(saveButton)
+        
         clearDrawingButton = getRoundyButton(size: 55, imageName: "stop", c1, c2)
         clearDrawingButton.addTarget(self, action:#selector(self.clearDrawing), for: .touchUpInside)
         self.view.addSubview(clearDrawingButton)
@@ -246,6 +251,11 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
         
         Haptics.threeWeakBooms()
         vertBrush.clear()
+    }
+    
+    @objc func saveDrawing() {
+        Haptics.strongBoom()
+        // Save drawing into FireBase here:
     }
     
     
