@@ -20,13 +20,21 @@
 		<data>
 		JvuC0zo340KrnHHoqSPlBvj74Jw=
 		</data>
+		<key>Base.lproj/Main.storyboardc/IN8-Ux-6ne-view-05K-0V-zxe.nib</key>
+		<data>
+		JvuC0zo340KrnHHoqSPlBvj74Jw=
+		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
 		LYF5noWOkeB1HL2w7ngvD6twuaI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-Skd-Xd-HE2.nib</key>
 		<data>
-		tBhLAK+OYaXnbBTt9tOaFv+xNyM=
+		fZrxSgNEBc8vGyIL5fYsePXY6IE=
+		</data>
+		<key>Base.lproj/Main.storyboardc/VYR-RY-x9e-view-mPh-ke-uOw.nib</key>
+		<data>
+		JvuC0zo340KrnHHoqSPlBvj74Jw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/cAY-2e-BQS-view-4oE-xs-v8L.nib</key>
 		<data>
@@ -34,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jLjOw6EOwULMlhu6tpZzjPATVPM=
+		dD2ULGEGpkyZrCEqgh1w1lj97+c=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -91,6 +99,13 @@
 			v2UUiHzwQ1R9G38M52U3Vo1SM6XBm2cXIlPxeoBFkX8=
 			</data>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/IN8-Ux-6ne-view-05K-0V-zxe.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v2UUiHzwQ1R9G38M52U3Vo1SM6XBm2cXIlPxeoBFkX8=
+			</data>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -102,7 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4XiSpIN2xnX4o5pkGeOwrPNMlvKL705D0zBiPV1ds70=
+			m3+DwRaHZWLEL+hQ8BPeFbqcdB47C3pFbza80mlXuwc=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/VYR-RY-x9e-view-mPh-ke-uOw.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v2UUiHzwQ1R9G38M52U3Vo1SM6XBm2cXIlPxeoBFkX8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/cAY-2e-BQS-view-4oE-xs-v8L.nib</key>
