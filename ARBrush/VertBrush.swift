@@ -36,10 +36,6 @@ class VertBrush {
     
     var currentVertIndex : Int = 0
     var currentIndexIndex : Int = 0
-    var indexList = [Int](repeating: 0, count: 1)
-    var currentIndex = 0
-    
-    var justUndid : Bool = false
     
     func addVert( _ v : Vertex ) {
         
@@ -59,7 +55,7 @@ class VertBrush {
         
     }
     
-    func addPoint( _ point : SCNVector3,
+    func addPoint( _ point : SCNVector3 ,
                    radius : Float = 0.01,
                    color : SCNVector3,
                    splitLine : Bool = false ) {
@@ -86,6 +82,7 @@ class VertBrush {
         func toVert(_ pp:SCNVector3, _ nn:SCNVector3 ) -> Vertex {
             
             return Vertex(position: vector_float4.init(pp.x, pp.y, pp.z, 1.0),
+                            //color: vector_float4.init(1.0, green, 0.0, 1.0),
                             color: vector_float4.init(color.x, color.y, color.z, 1.0),
                             normal: vector_float4.init(nn.x, nn.y, nn.z, 1.0))
             
@@ -164,16 +161,9 @@ class VertBrush {
             }
         }
         
+        
     }
     
-    func addStroke() {
-        if (justUndid) {
-            justUndid = false
-            indexList = Array(indexList[..<(currentIndex + 1)])
-        }
-        indexList.append(currentIndexIndex)
-        currentIndex += 1
-    }
     
     func clear() {
         
@@ -181,30 +171,6 @@ class VertBrush {
         
         currentVertIndex = 0
         currentIndexIndex = 0
-        points = [SCNVector3]()
-        indexList = [Int](repeating: 0, count: 1)
-        currentIndex = 0
-        
-        objc_sync_exit(self)
-    }
-    
-    func undo() {
-        
-        objc_sync_enter(self)
-        
-        justUndid = true
-        currentIndex = max(currentIndex - 1, 0)
-        currentIndexIndex = indexList[currentIndex]
-        
-        objc_sync_exit(self)
-    }
-    
-    func redo() {
-        
-        objc_sync_enter(self)
-        
-        currentIndex = min(currentIndex + 1, indexList.count - 1)
-        currentIndexIndex = indexList[currentIndex]
         
         objc_sync_exit(self)
     }
