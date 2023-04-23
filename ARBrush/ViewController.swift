@@ -25,15 +25,16 @@ import Photos
 func getRoundyButton(size: CGFloat = 100,
                      imageName : String,
                      _ color : UIColor) -> UIButton {
+
     let button = UIButton(frame: CGRect.init(x: 0, y: 0, width: size, height: size))
     button.clipsToBounds = true
-    button.layer.cornerRadius = 10
+    button.layer.cornerRadius = size / 2
     button.tintColor = color
-    
-    
-    let mediumConfig = UIImage.SymbolConfiguration(pointSize: size, weight: .regular, scale: .medium)
-    let mediumIcon = UIImage(systemName: imageName, withConfiguration: mediumConfig)
-    button.setImage(mediumIcon, for: .normal)
+
+    let image = UIImage.init(named: imageName)
+    let imgView = UIImageView.init(image: image)
+    imgView.center = CGPoint.init(x: button.bounds.size.width / 2.0, y: button.bounds.size.height / 2.0 )
+    button.addSubview(imgView)
 
     return button
 
@@ -200,11 +201,11 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
     }
     
     func addButtons() {
-        clearDrawingButton = getRoundyButton(size: 30, imageName: "trash", UIColor.white)
+        clearDrawingButton = getRoundyButton(size: 30, imageName: "stop", UIColor.red)
         clearDrawingButton.addTarget(self, action:#selector(self.clearDrawing), for: .touchUpInside)
         self.view.addSubview(clearDrawingButton)
         
-        colorButton = getRoundyButton(size: 35, imageName: "pencil", UIColor.white)
+        colorButton = getRoundyButton(size: 30, imageName: "plus", UIColor.red)
         colorButton.addTarget(self, action:#selector(self.pickColor), for: .touchUpInside)
         self.view.addSubview(colorButton)
     }
