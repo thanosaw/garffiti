@@ -274,6 +274,16 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
         createButton.isHidden = false
     }
     
+    @objc func undoStroke() {
+        Haptics.strongBoom()
+        vertBrush.undo()
+    }
+    
+    @objc func redoStroke() {
+        Haptics.strongBoom()
+        vertBrush.redo()
+    }
+    
     @objc func createDrawing() {
         Haptics.strongBoom()
         createMode = true
