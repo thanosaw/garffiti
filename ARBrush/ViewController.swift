@@ -152,12 +152,16 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
         // handle touch down and touch up events separately
         if gesture.state == .began {
             
-            self.touchLocation = self.sceneView.center
-            buttonTouchDown()
+            if (createMode) {
+                self.touchLocation = self.sceneView.center
+                buttonTouchDown()
+            }
             
         } else if gesture.state == .ended { // optional for touch up event catching
             
-            buttonTouchUp()
+            if (createMode) {
+                buttonTouchUp()
+            }
             
         } else if gesture.state == .changed {
             
