@@ -25,6 +25,9 @@
 		42BA3DC11EFECAB300A4039A /* stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BA3DC01EFECAA700A4039A /* stop@2x.png */; };
 		42FB5BB423D946D100B53DBD /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BB323D946D100B53DBD /* Haptics.swift */; };
 		42FB5BB623D9477200B53DBD /* MetalVideoRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BB523D9477200B53DBD /* MetalVideoRecorder.swift */; };
+		A1C5FA7829F4A7820074264F /* undo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C5FA7629F4A7820074264F /* undo@2x.png */; };
+		A1C5FA7929F4A7820074264F /* redo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C5FA7729F4A7820074264F /* redo@2x.png */; };
+		A1C5FA7B29F4C50E0074264F /* pencil@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C5FA7A29F4C50E0074264F /* pencil@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		42FB5BAF23D7AFF900B53DBD /* ARBrush-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARBrush-Bridging-Header.h"; sourceTree = "<group>"; };
 		42FB5BB323D946D100B53DBD /* Haptics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 		42FB5BB523D9477200B53DBD /* MetalVideoRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalVideoRecorder.swift; sourceTree = "<group>"; };
+		A1C5FA7629F4A7820074264F /* undo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "undo@2x.png"; path = "images/undo@2x.png"; sourceTree = "<group>"; };
+		A1C5FA7729F4A7820074264F /* redo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "redo@2x.png"; path = "images/redo@2x.png"; sourceTree = "<group>"; };
+		A1C5FA7A29F4C50E0074264F /* pencil@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pencil@2x.png"; path = "images/pencil@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,9 @@
 		425175421EFDB6C900C6DD2B /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A1C5FA7A29F4C50E0074264F /* pencil@2x.png */,
+				A1C5FA7729F4A7820074264F /* redo@2x.png */,
+				A1C5FA7629F4A7820074264F /* undo@2x.png */,
 				42BA3DC01EFECAA700A4039A /* stop@2x.png */,
 				425175431EFDB6D000C6DD2B /* plus@2x.png */,
 			);
@@ -184,9 +193,12 @@
 			files = (
 				425175211EFD9CB700C6DD2B /* art.scnassets in Resources */,
 				425175441EFDB6DC00C6DD2B /* plus@2x.png in Resources */,
+				A1C5FA7929F4A7820074264F /* redo@2x.png in Resources */,
 				42BA3DC11EFECAB300A4039A /* stop@2x.png in Resources */,
+				A1C5FA7B29F4C50E0074264F /* pencil@2x.png in Resources */,
 				4251752B1EFD9CB700C6DD2B /* LaunchScreen.storyboard in Resources */,
 				425175281EFD9CB700C6DD2B /* Assets.xcassets in Resources */,
+				A1C5FA7829F4A7820074264F /* undo@2x.png in Resources */,
 				425175261EFD9CB700C6DD2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,12 +363,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = B2BN8V9DCV;
+				DEVELOPMENT_TEAM = GU8N753Q5J;
 				GCC_OPTIMIZATION_LEVEL = fast;
 				INFOPLIST_FILE = ARBrush/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = labs.laan.ARBrush1000;
+				PRODUCT_BUNDLE_IDENTIFIER = labs.laan.ARBrush69;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ARBrush-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
@@ -369,11 +381,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = B2BN8V9DCV;
+				DEVELOPMENT_TEAM = GU8N753Q5J;
 				INFOPLIST_FILE = ARBrush/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = labs.laan.ARBrush1000;
+				PRODUCT_BUNDLE_IDENTIFIER = labs.laan.ARBrush69;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ARBrush-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
