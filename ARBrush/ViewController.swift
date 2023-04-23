@@ -8,19 +8,37 @@ import SceneKit
 import ARKit
 import simd
 import Photos
+import FirebaseAuth
 
-func getButton(size: CGFloat = 100,
-                     imageName : String) -> UIButton {
 
+//class ParamButton: UIButton{
+//    var params: Dictionary<String, Any>
+//    override init(frame: CGRect) {
+//        self.params = [:]
+//        super.init(frame: frame)
+//    }
+//
+//    required init?(coder aDecoder: NSCoder) {
+//        self.params = [:]
+//        super.init(coder: aDecoder)
+//    }
+//}
+
+func getRoundyButton(size: CGFloat = 100,
+                     imageName : String,
+                     _ color : UIColor) -> UIButton {
     let button = UIButton(frame: CGRect.init(x: 0, y: 0, width: size, height: size))
     button.clipsToBounds = true
-
-    let image = UIImage.init(named: imageName)
-    let imgView = UIImageView.init(image: image)
-    imgView.center = CGPoint.init(x: button.bounds.size.width / 2.0, y: button.bounds.size.height / 2.0 )
-    button.addSubview(imgView)
+    button.layer.cornerRadius = 10
+    button.tintColor = color
+    
+    
+    let mediumConfig = UIImage.SymbolConfiguration(pointSize: size, weight: .regular, scale: .medium)
+    let mediumIcon = UIImage(systemName: imageName, withConfiguration: mediumConfig)
+    button.setImage(mediumIcon, for: .normal)
 
     return button
+
 }
 
 
@@ -60,14 +78,10 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
     @IBOutlet var sceneView: ARSCNView!
     
     let vertBrush = VertBrush()
-    var createMode = false
     var buttonDown = false
     
     var clearDrawingButton : UIButton!
-    var undoButton : UIButton!
-    var redoButton : UIButton!
     var colorButton : UIButton!
-    var createButton : UIButton!
     
     var frameIdx = 0
     var splitLine = false
@@ -122,16 +136,22 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
         }
         
     }
-    
-//    var recordingOrientation : UIInterfaceOrientationMask? = nil
-    
-//    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-//        if let orientation = recordingOrientation {
-//            return orientation
-//        } else {
-//            return .all
-//        }
-//    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+            //Authentication
+        handleNotAuthenticated()
+    }
+    private func handleNotAuthenticated(){
+        //Check Auth status
+        if Auth.auth().currentUser == nil {
+            let loginVC = LoginViewController()
+            loginVC.modalPresentationStyle = .fullScreen
+            present (loginVC, animated:false)
+        }
+    }
+    var recordingOrientation : UIInterfaceOrientationMask? = nil
     
     func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldReceive touch: UITouch) -> Bool {
         return touch.view == gestureRecognizer.view
@@ -144,12 +164,13 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
         
         // handle touch down and touch up events separately
         if gesture.state == .began {
-            if (createMode) {
-                self.touchLocation = self.sceneView.center
-                buttonTouchDown()
-            }
+            
+            self.touchLocation = self.sceneView.center
+            buttonTouchDown()
+            
         } else if gesture.state == .ended { // optional for touch up event catching
-            if (createMode) { buttonTouchUp() }
+            
+            buttonTouchUp()
             
         } else if gesture.state == .changed {
             
@@ -187,29 +208,13 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
     }
     
     func addButtons() {
-        clearDrawingButton = getButton(size: 50, imageName: "stop")
+        clearDrawingButton = getRoundyButton(size: 30, imageName: "trash", UIColor.white)
         clearDrawingButton.addTarget(self, action:#selector(self.clearDrawing), for: .touchUpInside)
-        clearDrawingButton.isHidden = true
         self.view.addSubview(clearDrawingButton)
         
-        undoButton = getButton(size: 50, imageName: "undo")
-        undoButton.addTarget(self, action:#selector(self.undoStroke), for: .touchUpInside)
-        undoButton.isHidden = true
-        self.view.addSubview(undoButton)
-        
-        redoButton = getButton(size: 50, imageName: "redo")
-        redoButton.addTarget(self, action:#selector(self.redoStroke), for: .touchUpInside)
-        redoButton.isHidden = true
-        self.view.addSubview(redoButton)
-        
-        colorButton = getButton(size: 50, imageName: "pencil")
+        colorButton = getRoundyButton(size: 35, imageName: "pencil", UIColor.white)
         colorButton.addTarget(self, action:#selector(self.pickColor), for: .touchUpInside)
-        colorButton.isHidden = true
         self.view.addSubview(colorButton)
-        
-        createButton = getButton(size: 50, imageName: "plus")
-        createButton.addTarget(self, action:#selector(self.createDrawing), for: .touchUpInside)
-        self.view.addSubview(createButton)
     }
     
     override func viewDidLayoutSubviews() {
@@ -221,12 +226,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
         clearDrawingButton.center = CGPoint(x: off, y: ySafe)
         
         colorButton.center = CGPoint(x: sw - off, y: ySafe)
-        
-        redoButton.center = CGPoint(x: sw - off - off - 15, y: ySafe)
-        
-        undoButton.center = CGPoint(x: sw - off - off - 15 - off - 15, y: ySafe)
-        
-        createButton.center = CGPoint(x: sw - off, y: ySafe)
     }
     
     // MARK: - Buttons
@@ -236,6 +235,13 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
         let colorPickerVC = UIColorPickerViewController()
         colorPickerVC.delegate = self
         present(colorPickerVC, animated: true)
+    }
+    
+    func colorPickerViewControllerDidFinish(_ viewController: UIColorPickerViewController) {
+//        let color = viewController.selectedColor
+//        let rgb = color.components
+//        self.currentColor = SCNVector3(rgb.red, rgb.green, rgb.blue)
+//        colorButton.tintColor = color
     }
     
     func colorPickerViewControllerDidSelectColor(_ viewController: UIColorPickerViewController) {
@@ -252,38 +258,14 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
 
     
     @objc func setBrushMode() {
+        
         Haptics.strongBoom()
+        
     }
     
     @objc func clearDrawing() {
         Haptics.threeWeakBooms()
         vertBrush.clear()
-        createMode = false
-        clearDrawingButton.isHidden = true
-        undoButton.isHidden = true
-        redoButton.isHidden = true
-        colorButton.isHidden = true
-        createButton.isHidden = false
-    }
-    
-    @objc func undoStroke() {
-        Haptics.strongBoom()
-        vertBrush.undo()
-    }
-    
-    @objc func redoStroke() {
-        Haptics.strongBoom()
-        vertBrush.redo()
-    }
-    
-    @objc func createDrawing() {
-        Haptics.strongBoom()
-        createMode = true
-        clearDrawingButton.isHidden = false
-        undoButton.isHidden = false
-        redoButton.isHidden = false
-        colorButton.isHidden = false
-        createButton.isHidden = true
     }
     
     // MARK: - Touch
@@ -300,7 +282,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
     }
     @objc func buttonTouchUp() {
         buttonDown = false
-        vertBrush.addStroke()
     }
     
     // MARK: - ARSCNViewDelegate
@@ -353,11 +334,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
                                        color: color,
                                        splitLine:splitLine)
                     
-                    if ( splitLine ) { splitLine = false }
-                    
-                }
-            }
-        }
+                    if ( splitLine ) { splitLine = false }}}}
         frameIdx = frameIdx + 1
     }
     
@@ -384,8 +361,26 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
                 
                 vertBrush.updateSharedUniforms(frame: frame)
                 vertBrush.render(commandQueue, encoder, parentModelViewMatrix: modelViewMat, projectionMatrix: projMat)
+                
+                
             }
         }
+        
+        
+        
+        // This is not the right way to do this ..
+        // seems to work though
+        DispatchQueue.global(qos: .userInteractive).async {
+
+            if let recorder = self.videoRecorder,
+                recorder.isRecording {
+
+                if let tex = self.metalLayer.nextDrawable()?.texture {
+                    recorder.writeFrame(forTexture: tex)
+                }
+            }
+        }
+        
     }
     
 
@@ -410,7 +405,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
     func getPointerPosition() -> (pos : SCNVector3, valid: Bool, camPos : SCNVector3 ) {
         
         // Un-project a 2d screen location into ARKit world space using the 'unproject'
-        // function. 
+        // function.
         
         guard let pointOfView = sceneView.pointOfView else { return (SCNVector3Zero, false, SCNVector3Zero) }
         guard let currentFrame = sceneView.session.currentFrame else { return (SCNVector3Zero, false, SCNVector3Zero) }
@@ -428,5 +423,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIGestureRecognizerDe
         return (worldTouchPos, true, pointOfView.position)
         
     }
+    
     
 }
