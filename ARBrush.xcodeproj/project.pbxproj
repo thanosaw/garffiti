@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,10 +25,18 @@
 		42BA3DC11EFECAB300A4039A /* stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BA3DC01EFECAA700A4039A /* stop@2x.png */; };
 		42FB5BB423D946D100B53DBD /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BB323D946D100B53DBD /* Haptics.swift */; };
 		42FB5BB623D9477200B53DBD /* MetalVideoRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BB523D9477200B53DBD /* MetalVideoRecorder.swift */; };
-		A1C5FA7829F4A7820074264F /* undo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C5FA7629F4A7820074264F /* undo@2x.png */; };
-		A1C5FA7929F4A7820074264F /* redo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C5FA7729F4A7820074264F /* redo@2x.png */; };
-		A1C5FA7B29F4C50E0074264F /* pencil@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C5FA7A29F4C50E0074264F /* pencil@2x.png */; };
 		CF1B1A1829F481E500921386 /* garfitti_splash_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1B1A1729F481E500921386 /* garfitti_splash_screen.png */; };
+		CF1B1A2329F4D71000921386 /* FeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B1A2229F4D71000921386 /* FeedPostTableViewCell.swift */; };
+		CF1B1A2529F4D75E00921386 /* FeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B1A2429F4D75E00921386 /* FeedPostHeaderTableViewCell.swift */; };
+		CF1B1A2729F4D79D00921386 /* FeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B1A2629F4D79D00921386 /* FeedPostGeneralTableViewCell.swift */; };
+		CF1B1A2929F4D7D000921386 /* FeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B1A2829F4D7D000921386 /* FeedPostActionsTableViewCell.swift */; };
+		CF1B1A2D29F4EB2600921386 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B1A2C29F4EB2600921386 /* StorageManager.swift */; };
+		CF1B1A3029F4F5F200921386 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B1A2F29F4F5F200921386 /* Post.swift */; };
+		CF1B1A3229F4F62500921386 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B1A3129F4F62500921386 /* ProfileHeader.swift */; };
+		CF1B1A3429F4F69400921386 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B1A3329F4F69400921386 /* ContentView.swift */; };
+		CF1B1A3629F4F6B000921386 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B1A3529F4F6B000921386 /* PostCell.swift */; };
+		CF1B1A3829F4F72400921386 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B1A3729F4F72400921386 /* PostViewModel.swift */; };
+		CF1B1A3B29F4F96200921386 /* ASCollectionView in Frameworks */ = {isa = PBXBuildFile; productRef = CF1B1A3A29F4F96200921386 /* ASCollectionView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,10 +62,17 @@
 		42FB5BAF23D7AFF900B53DBD /* ARBrush-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARBrush-Bridging-Header.h"; sourceTree = "<group>"; };
 		42FB5BB323D946D100B53DBD /* Haptics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 		42FB5BB523D9477200B53DBD /* MetalVideoRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalVideoRecorder.swift; sourceTree = "<group>"; };
-		A1C5FA7629F4A7820074264F /* undo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "undo@2x.png"; path = "images/undo@2x.png"; sourceTree = "<group>"; };
-		A1C5FA7729F4A7820074264F /* redo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "redo@2x.png"; path = "images/redo@2x.png"; sourceTree = "<group>"; };
-		A1C5FA7A29F4C50E0074264F /* pencil@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pencil@2x.png"; path = "images/pencil@2x.png"; sourceTree = "<group>"; };
 		CF1B1A1729F481E500921386 /* garfitti_splash_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = garfitti_splash_screen.png; path = images/garfitti_splash_screen.png; sourceTree = "<group>"; };
+		CF1B1A2229F4D71000921386 /* FeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostTableViewCell.swift; sourceTree = "<group>"; };
+		CF1B1A2429F4D75E00921386 /* FeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		CF1B1A2629F4D79D00921386 /* FeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
+		CF1B1A2829F4D7D000921386 /* FeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
+		CF1B1A2C29F4EB2600921386 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		CF1B1A2F29F4F5F200921386 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CF1B1A3129F4F62500921386 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		CF1B1A3329F4F69400921386 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF1B1A3529F4F6B000921386 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		CF1B1A3729F4F72400921386 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1B1A3B29F4F96200921386 /* ASCollectionView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +107,10 @@
 		4251751D1EFD9CB700C6DD2B /* ARBrush */ = {
 			isa = PBXGroup;
 			children = (
+				CF1B1A2E29F4F5E100921386 /* Profile */,
+				CF1B1A2B29F4EB1000921386 /* Resources */,
+				CF1B1A2A29F4E6CC00921386 /* Cells */,
+				CF1B1A2129F4D6ED00921386 /* Home Feed */,
 				425175321EFDA09100C6DD2B /* VertBrush.swift */,
 				012D13A929F47AB20061890C /* HomeViewController.swift */,
 				4251751E1EFD9CB700C6DD2B /* AppDelegate.swift */,
@@ -125,14 +145,49 @@
 		425175421EFDB6C900C6DD2B /* images */ = {
 			isa = PBXGroup;
 			children = (
-				A1C5FA7A29F4C50E0074264F /* pencil@2x.png */,
-				A1C5FA7729F4A7820074264F /* redo@2x.png */,
-				A1C5FA7629F4A7820074264F /* undo@2x.png */,
 				CF1B1A1729F481E500921386 /* garfitti_splash_screen.png */,
 				42BA3DC01EFECAA700A4039A /* stop@2x.png */,
 				425175431EFDB6D000C6DD2B /* plus@2x.png */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		CF1B1A2129F4D6ED00921386 /* Home Feed */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B1A2229F4D71000921386 /* FeedPostTableViewCell.swift */,
+				CF1B1A2429F4D75E00921386 /* FeedPostHeaderTableViewCell.swift */,
+				CF1B1A2629F4D79D00921386 /* FeedPostGeneralTableViewCell.swift */,
+				CF1B1A2829F4D7D000921386 /* FeedPostActionsTableViewCell.swift */,
+			);
+			path = "Home Feed";
+			sourceTree = "<group>";
+		};
+		CF1B1A2A29F4E6CC00921386 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CF1B1A2B29F4EB1000921386 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B1A2C29F4EB2600921386 /* StorageManager.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF1B1A2E29F4F5E100921386 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CF1B1A2F29F4F5F200921386 /* Post.swift */,
+				CF1B1A3129F4F62500921386 /* ProfileHeader.swift */,
+				CF1B1A3329F4F69400921386 /* ContentView.swift */,
+				CF1B1A3529F4F6B000921386 /* PostCell.swift */,
+				CF1B1A3729F4F72400921386 /* PostViewModel.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +206,9 @@
 			dependencies = (
 			);
 			name = ARBrush;
+			packageProductDependencies = (
+				CF1B1A3A29F4F96200921386 /* ASCollectionView */,
+			);
 			productName = ARBrush;
 			productReference = 4251751B1EFD9CB700C6DD2B /* ARBrush.app */;
 			productType = "com.apple.product-type.application";
@@ -180,6 +238,9 @@
 				Base,
 			);
 			mainGroup = 425175121EFD9CB700C6DD2B;
+			packageReferences = (
+				CF1B1A3929F4F96200921386 /* XCRemoteSwiftPackageReference "ASCollectionView" */,
+			);
 			productRefGroup = 4251751C1EFD9CB700C6DD2B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -197,12 +258,9 @@
 				CF1B1A1829F481E500921386 /* garfitti_splash_screen.png in Resources */,
 				425175211EFD9CB700C6DD2B /* art.scnassets in Resources */,
 				425175441EFDB6DC00C6DD2B /* plus@2x.png in Resources */,
-				A1C5FA7929F4A7820074264F /* redo@2x.png in Resources */,
 				42BA3DC11EFECAB300A4039A /* stop@2x.png in Resources */,
-				A1C5FA7B29F4C50E0074264F /* pencil@2x.png in Resources */,
 				4251752B1EFD9CB700C6DD2B /* LaunchScreen.storyboard in Resources */,
 				425175281EFD9CB700C6DD2B /* Assets.xcassets in Resources */,
-				A1C5FA7829F4A7820074264F /* undo@2x.png in Resources */,
 				425175261EFD9CB700C6DD2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,16 +272,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1B1A2D29F4EB2600921386 /* StorageManager.swift in Sources */,
+				CF1B1A3229F4F62500921386 /* ProfileHeader.swift in Sources */,
+				CF1B1A2329F4D71000921386 /* FeedPostTableViewCell.swift in Sources */,
 				42FB5BB423D946D100B53DBD /* Haptics.swift in Sources */,
 				4251753A1EFDA86200C6DD2B /* Shaders.metal in Sources */,
 				012D13AC29F481510061890C /* ExploreViewController.swift in Sources */,
+				CF1B1A3429F4F69400921386 /* ContentView.swift in Sources */,
+				CF1B1A2729F4D79D00921386 /* FeedPostGeneralTableViewCell.swift in Sources */,
 				425175331EFDA09100C6DD2B /* VertBrush.swift in Sources */,
 				42FB5BB623D9477200B53DBD /* MetalVideoRecorder.swift in Sources */,
+				CF1B1A2929F4D7D000921386 /* FeedPostActionsTableViewCell.swift in Sources */,
 				425175231EFD9CB700C6DD2B /* ViewController.swift in Sources */,
 				012D13B029F481B90061890C /* ProfileViewController.swift in Sources */,
+				CF1B1A2529F4D75E00921386 /* FeedPostHeaderTableViewCell.swift in Sources */,
+				CF1B1A3629F4F6B000921386 /* PostCell.swift in Sources */,
 				012D13AA29F47AB20061890C /* HomeViewController.swift in Sources */,
 				4251751F1EFD9CB700C6DD2B /* AppDelegate.swift in Sources */,
 				012D13AE29F481960061890C /* NotificationsViewController.swift in Sources */,
+				CF1B1A3829F4F72400921386 /* PostViewModel.swift in Sources */,
+				CF1B1A3029F4F5F200921386 /* Post.swift in Sources */,
 				425175381EFDA76A00C6DD2B /* float4x4+Extensions.swift in Sources */,
 				425175371EFDA76700C6DD2B /* SCNVector3Extensions.swift in Sources */,
 			);
@@ -357,7 +425,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -367,12 +436,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = GU8N753Q5J;
+				DEVELOPMENT_TEAM = B2BN8V9DCV;
 				GCC_OPTIMIZATION_LEVEL = fast;
 				INFOPLIST_FILE = ARBrush/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = labs.laan.ARBrush69;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = labs.laan.ARBrush1000;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ARBrush-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
@@ -385,11 +457,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = GU8N753Q5J;
+				DEVELOPMENT_TEAM = B2BN8V9DCV;
 				INFOPLIST_FILE = ARBrush/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = labs.laan.ARBrush69;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = labs.laan.ARBrush1000;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ARBrush-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
@@ -419,6 +494,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF1B1A3929F4F96200921386 /* XCRemoteSwiftPackageReference "ASCollectionView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apptekstudios/ASCollectionView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF1B1A3A29F4F96200921386 /* ASCollectionView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF1B1A3929F4F96200921386 /* XCRemoteSwiftPackageReference "ASCollectionView" */;
+			productName = ASCollectionView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 425175131EFD9CB700C6DD2B /* Project object */;
 }

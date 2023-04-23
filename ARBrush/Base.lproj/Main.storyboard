@@ -45,7 +45,7 @@
         <!--Profile-->
         <scene sceneID="IA4-LT-96B">
             <objects>
-                <navigationController id="5oh-Ig-dgL" sceneMemberID="viewController">
+                <navigationController id="5oh-Ig-dgL" customClass="ProfileViewController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Profile" image="person" catalog="system" id="Z6d-oK-mG5"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="5QE-WB-VP4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -86,7 +86,7 @@
                         <viewControllerLayoutGuide type="top" id="GJ6-0h-ltw"/>
                         <viewControllerLayoutGuide type="bottom" id="LEX-na-hqj"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="mPh-ke-uOw">
+                    <view key="view" contentMode="scaleToFill" id="mPh-ke-uOw" customClass="ContentView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
