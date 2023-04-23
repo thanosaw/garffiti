@@ -266,19 +266,29 @@ SWIFT_CLASS("_TtC7ARBrush11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class ARSCNView;
-@class UIGestureRecognizer;
-@class UITouch;
-@class UITapGestureRecognizer;
-@protocol SCNSceneRenderer;
-@class SCNScene;
-@class ARSession;
 @class NSString;
 @class NSBundle;
 @class NSCoder;
 
+SWIFT_CLASS("_TtC7ARBrush18HomeViewController")
+@interface HomeViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class ARSCNView;
+@class UIGestureRecognizer;
+@class UITouch;
+@class UITapGestureRecognizer;
+@class UIColorPickerViewController;
+@protocol SCNSceneRenderer;
+@class SCNScene;
+@class ARSession;
+
 SWIFT_CLASS("_TtC7ARBrush14ViewController") SWIFT_AVAILABILITY(ios,introduced=13.0)
-@interface ViewController : UIViewController <ARSCNViewDelegate, UIGestureRecognizerDelegate>
+@interface ViewController : UIViewController <ARSCNViewDelegate, UIColorPickerViewControllerDelegate, UIGestureRecognizerDelegate>
 @property (nonatomic, strong) IBOutlet ARSCNView * _Null_unspecified sceneView;
 - (void)viewDidLoad;
 @property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
@@ -288,9 +298,12 @@ SWIFT_CLASS("_TtC7ARBrush14ViewController") SWIFT_AVAILABILITY(ios,introduced=13
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
 - (void)viewDidLayoutSubviews;
-- (void)toggleColorMode;
+- (void)pickColor;
+- (void)colorPickerViewControllerDidFinish:(UIColorPickerViewController * _Nonnull)viewController;
+- (void)colorPickerViewControllerDidSelectColor:(UIColorPickerViewController * _Nonnull)viewController;
+- (void)saveDrawing;
+- (void)setBrushMode;
 - (void)clearDrawing;
-- (void)recordTapped;
 - (void)buttonTouchDown;
 - (void)buttonTouchUp;
 - (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer updateAtTime:(NSTimeInterval)time;

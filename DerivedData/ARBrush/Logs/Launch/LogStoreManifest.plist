@@ -6,14 +6,14 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>60CD4EF5-58D7-4ED5-97D7-6AE6B5978E1A</key>
+		<key>00F2F6E0-6F63-44C5-A8E0-4031217A0309</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>9589C952-68DD-497C-A253-15D57E16AED5</string>
+			<string>0E00EACC-D139-4ECD-9F48-D0AF851A0A28</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>className</key>
 			<string>IDESchemeActionsInvocationRecord</string>
@@ -22,7 +22,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
 			<key>fileName</key>
-			<string>Run-ARBrush-2023.04.21_21-27-42--0700.xcresult</string>
+			<string>Run-ARBrush-2023.04.22_13-46-50--0700.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasConsoleLog</key>
@@ -32,7 +32,7 @@
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>E</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>ARBrush project</string>
@@ -43,18 +43,18 @@
 			<key>signature</key>
 			<string>Run ARBrush</string>
 			<key>timeStartedRecording</key>
-			<real>703830462.06578803</real>
+			<real>703889210.23616004</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run ARBrush</string>
 			<key>uniqueIdentifier</key>
-			<string>60CD4EF5-58D7-4ED5-97D7-6AE6B5978E1A</string>
+			<string>00F2F6E0-6F63-44C5-A8E0-4031217A0309</string>
 		</dict>
-		<key>F7A518C4-5621-40FE-A76D-3AF214732F1B</key>
+		<key>06854CE3-4372-4611-976A-E957142FE57A</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>D8412A06-BC75-41EB-9380-285465EC2A2B</string>
+			<string>A9B93BBA-9753-4CF4-A836-3171777A5131</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -67,7 +67,52 @@
 			<key>domainType</key>
 			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
 			<key>fileName</key>
-			<string>Run-ARBrush-2023.04.21_21-54-56--0700.xcresult</string>
+			<string>Run-ARBrush-2023.04.22_13-43-50--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889030.38250804</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>06854CE3-4372-4611-976A-E957142FE57A</string>
+		</dict>
+		<key>1A062762-B54D-40DD-B3EC-2B4894796087</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>B1940CBA-6B47-48A5-841A-13BC2474C012</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-50-34--0700.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasConsoleLog</key>
@@ -88,13 +133,1003 @@
 			<key>signature</key>
 			<string>Run ARBrush</string>
 			<key>timeStartedRecording</key>
-			<real>703832096.25480103</real>
+			<real>703889434.99515903</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run ARBrush</string>
 			<key>uniqueIdentifier</key>
-			<string>F7A518C4-5621-40FE-A76D-3AF214732F1B</string>
+			<string>1A062762-B54D-40DD-B3EC-2B4894796087</string>
+		</dict>
+		<key>22A7456B-6A9A-4527-949E-A1647507525E</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>508CDA2C-2207-4F7F-9BEA-C16311B28BF1</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-51-05--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889465.38407195</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>22A7456B-6A9A-4527-949E-A1647507525E</string>
+		</dict>
+		<key>36B5E4E8-B194-4078-85A0-06484751D70E</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>4EC646C9-AA66-41C9-8487-4EEFA4D76E7E</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-13-59--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703887239.06695402</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>36B5E4E8-B194-4078-85A0-06484751D70E</string>
+		</dict>
+		<key>3C562C22-CF28-4D4C-9FA3-8CBD077B5B9B</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>CF76202C-38D9-4923-97C8-3B40D9134838</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-28-45--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888125.37796795</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>3C562C22-CF28-4D4C-9FA3-8CBD077B5B9B</string>
+		</dict>
+		<key>3E070B0E-1DD0-465C-BBE2-3CED03B59EDF</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>76869908-EF2A-48AB-BF05-0DB0D2CD6CE8</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-26-16--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703887976.78687596</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>3E070B0E-1DD0-465C-BBE2-3CED03B59EDF</string>
+		</dict>
+		<key>456B46B0-5589-4169-843A-1F7634F30AC9</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>65548368-98CD-4C5E-9EA9-9B86487FC92C</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-42-39--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888959.59228504</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>456B46B0-5589-4169-843A-1F7634F30AC9</string>
+		</dict>
+		<key>5772B539-D537-4934-92A9-E8E2096EA0BC</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>BE22299F-9707-416B-AD8D-724273FE1B82</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-38-48--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888728.99601698</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>5772B539-D537-4934-92A9-E8E2096EA0BC</string>
+		</dict>
+		<key>7529BEC7-2955-4CA6-B1A3-1156E8B4CBCB</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>F785CEF9-8D59-412A-9793-D48B6F7DF1E6</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-45-32--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889132.81238496</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>7529BEC7-2955-4CA6-B1A3-1156E8B4CBCB</string>
+		</dict>
+		<key>7A52D78E-D37F-4DBE-A3D1-B8FCDB7E1ADA</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>BD54BE18-B60E-4A7A-AA53-751DE7DD6979</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-44-57--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889097.72759902</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>7A52D78E-D37F-4DBE-A3D1-B8FCDB7E1ADA</string>
+		</dict>
+		<key>85AC63B9-5DCA-4065-9E28-A8C6FC1BA558</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>72EBFA57-CE43-4938-A999-BAC2D5522552</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-44-03--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889043.36454201</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>85AC63B9-5DCA-4065-9E28-A8C6FC1BA558</string>
+		</dict>
+		<key>8EA51BEC-71F0-4BA4-9FFE-B9B836A62B0A</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>D6CC25B2-1AF1-4263-8B0B-027D041A9538</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-21-53--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703887713.32602406</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>8EA51BEC-71F0-4BA4-9FFE-B9B836A62B0A</string>
+		</dict>
+		<key>982FE876-47F3-4D5B-AB45-47CEB254EDC4</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>6F6714C9-8D8E-4F11-86A6-ED0616244B64</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-36-39--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888599.10639906</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>982FE876-47F3-4D5B-AB45-47CEB254EDC4</string>
+		</dict>
+		<key>9A9BFFAA-F243-45D3-B542-1DCC4C60F494</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>F4B12D13-F240-4593-B890-E351E7F9C9A9</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-37-50--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888670.66933298</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>9A9BFFAA-F243-45D3-B542-1DCC4C60F494</string>
+		</dict>
+		<key>9C030A6E-5DDE-494C-A532-A6A5BF5F1923</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>3732E20B-89F7-4247-9BCB-EF60E97C9EA1</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-39-20--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888760.998034</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>9C030A6E-5DDE-494C-A532-A6A5BF5F1923</string>
+		</dict>
+		<key>BD865D44-5421-441D-8A0A-1F72DA2079E7</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>6D4C44B9-E6E1-4ACB-9A79-87E62359BA70</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-21-29--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703887689.93918097</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>BD865D44-5421-441D-8A0A-1F72DA2079E7</string>
+		</dict>
+		<key>C2FAC780-5E5E-4359-AD3A-8EEC69BA6A0B</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>66F8B269-8C47-4A75-80B2-2CE2D4EB5F2D</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-20-18--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703887618.62207198</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>C2FAC780-5E5E-4359-AD3A-8EEC69BA6A0B</string>
+		</dict>
+		<key>C4979B30-4737-41E7-B7F1-8766CF2EE2C7</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>7A55F9D2-0FF7-4AC1-A393-590D030717AB</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-44-29--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889069.09808004</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>C4979B30-4737-41E7-B7F1-8766CF2EE2C7</string>
+		</dict>
+		<key>D2A39C77-EEF9-4A6B-9EC2-596F80F9AAD4</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>2041B601-FF43-42D6-9F4B-632B4077F28B</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-15-55--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703887355.44566905</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>D2A39C77-EEF9-4A6B-9EC2-596F80F9AAD4</string>
+		</dict>
+		<key>D501B00C-5755-4127-AE11-F22D84439D16</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>9E88C6E2-B1D6-49DA-8481-4F33160B752E</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-47-00--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889220.25315106</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>D501B00C-5755-4127-AE11-F22D84439D16</string>
+		</dict>
+		<key>E1C5A414-994E-4A34-B871-082339A59B6E</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>066212E8-5822-4AF5-80F3-B7956F037372</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-15-19--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703887319.30828094</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>E1C5A414-994E-4A34-B871-082339A59B6E</string>
+		</dict>
+		<key>E3404666-BF7E-4560-B54B-C185B1EAA5D7</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>10A1AB9D-448F-4705-8249-1C243043B4A8</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-39-03--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888743.51911104</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>E3404666-BF7E-4560-B54B-C185B1EAA5D7</string>
+		</dict>
+		<key>E3DE5215-C0B0-4FAF-B84E-70FC62AD4AB1</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>5A728A8B-D6F0-44ED-904E-3E482FC53ECB</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-45-47--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889147.94762194</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>E3DE5215-C0B0-4FAF-B84E-70FC62AD4AB1</string>
+		</dict>
+		<key>F08DE833-9151-4C78-8049-C7B3F05B6442</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>B2C1170C-2E13-4DB8-8A7F-43A7E5BC8A58</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ARBrush-2023.04.22_13-41-12--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888872.70811403</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>F08DE833-9151-4C78-8049-C7B3F05B6442</string>
 		</dict>
 	</dict>
 </dict>

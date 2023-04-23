@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>9589C952-68DD-497C-A253-15D57E16AED5</key>
+		<key>066212E8-5822-4AF5-80F3-B7956F037372</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,13 +15,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>9589C952-68DD-497C-A253-15D57E16AED5.xcactivitylog</string>
+			<string>066212E8-5822-4AF5-80F3-B7956F037372.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>E</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>ARBrush project</string>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Build ARBrush</string>
 			<key>timeStartedRecording</key>
-			<real>703830462.06662297</real>
+			<real>703887319.30885005</real>
 			<key>timeStoppedRecording</key>
-			<real>703830482.62109196</real>
+			<real>703887320.60470295</real>
 			<key>title</key>
 			<string>Build ARBrush</string>
 			<key>uniqueIdentifier</key>
-			<string>9589C952-68DD-497C-A253-15D57E16AED5</string>
+			<string>066212E8-5822-4AF5-80F3-B7956F037372</string>
 		</dict>
-		<key>D8412A06-BC75-41EB-9380-285465EC2A2B</key>
+		<key>0E00EACC-D139-4ECD-9F48-D0AF851A0A28</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,7 +49,245 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>D8412A06-BC75-41EB-9380-285465EC2A2B.xcactivitylog</string>
+			<string>0E00EACC-D139-4ECD-9F48-D0AF851A0A28.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889210.23636496</real>
+			<key>timeStoppedRecording</key>
+			<real>703889210.94925702</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>0E00EACC-D139-4ECD-9F48-D0AF851A0A28</string>
+		</dict>
+		<key>10A1AB9D-448F-4705-8249-1C243043B4A8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>10A1AB9D-448F-4705-8249-1C243043B4A8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888743.51931202</real>
+			<key>timeStoppedRecording</key>
+			<real>703888743.82806301</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>10A1AB9D-448F-4705-8249-1C243043B4A8</string>
+		</dict>
+		<key>2041B601-FF43-42D6-9F4B-632B4077F28B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2041B601-FF43-42D6-9F4B-632B4077F28B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703887355.44592798</real>
+			<key>timeStoppedRecording</key>
+			<real>703887378.27327895</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>2041B601-FF43-42D6-9F4B-632B4077F28B</string>
+		</dict>
+		<key>2DFAFE47-32A6-4EB6-AA04-16F5798DBD84</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2DFAFE47-32A6-4EB6-AA04-16F5798DBD84.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703890042.57183504</real>
+			<key>timeStoppedRecording</key>
+			<real>703890044.31208706</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>2DFAFE47-32A6-4EB6-AA04-16F5798DBD84</string>
+		</dict>
+		<key>3732E20B-89F7-4247-9BCB-EF60E97C9EA1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3732E20B-89F7-4247-9BCB-EF60E97C9EA1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888760.99852395</real>
+			<key>timeStoppedRecording</key>
+			<real>703888761.08159304</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>3732E20B-89F7-4247-9BCB-EF60E97C9EA1</string>
+		</dict>
+		<key>4EC646C9-AA66-41C9-8487-4EEFA4D76E7E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4EC646C9-AA66-41C9-8487-4EEFA4D76E7E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703887239.06734395</real>
+			<key>timeStoppedRecording</key>
+			<real>703887239.12765503</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>4EC646C9-AA66-41C9-8487-4EEFA4D76E7E</string>
+		</dict>
+		<key>508CDA2C-2207-4F7F-9BEA-C16311B28BF1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>508CDA2C-2207-4F7F-9BEA-C16311B28BF1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889465.38421297</real>
+			<key>timeStoppedRecording</key>
+			<real>703889473.42846704</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>508CDA2C-2207-4F7F-9BEA-C16311B28BF1</string>
+		</dict>
+		<key>5A728A8B-D6F0-44ED-904E-3E482FC53ECB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5A728A8B-D6F0-44ED-904E-3E482FC53ECB.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,13 +304,659 @@
 			<key>signature</key>
 			<string>Build ARBrush</string>
 			<key>timeStartedRecording</key>
-			<real>703832096.25495601</real>
+			<real>703889147.94799304</real>
 			<key>timeStoppedRecording</key>
-			<real>703832106.27269197</real>
+			<real>703889148.64951205</real>
 			<key>title</key>
 			<string>Build ARBrush</string>
 			<key>uniqueIdentifier</key>
-			<string>D8412A06-BC75-41EB-9380-285465EC2A2B</string>
+			<string>5A728A8B-D6F0-44ED-904E-3E482FC53ECB</string>
+		</dict>
+		<key>65548368-98CD-4C5E-9EA9-9B86487FC92C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>65548368-98CD-4C5E-9EA9-9B86487FC92C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888959.59255302</real>
+			<key>timeStoppedRecording</key>
+			<real>703888960.28972197</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>65548368-98CD-4C5E-9EA9-9B86487FC92C</string>
+		</dict>
+		<key>66F8B269-8C47-4A75-80B2-2CE2D4EB5F2D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>66F8B269-8C47-4A75-80B2-2CE2D4EB5F2D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703887618.62215102</real>
+			<key>timeStoppedRecording</key>
+			<real>703887619.55798399</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>66F8B269-8C47-4A75-80B2-2CE2D4EB5F2D</string>
+		</dict>
+		<key>6719B1F4-CF8F-4A2A-9C93-F5385E2EB0D1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6719B1F4-CF8F-4A2A-9C93-F5385E2EB0D1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703887885.71010399</real>
+			<key>timeStoppedRecording</key>
+			<real>703887885.79524302</real>
+			<key>title</key>
+			<string>Clean ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>6719B1F4-CF8F-4A2A-9C93-F5385E2EB0D1</string>
+		</dict>
+		<key>6D4C44B9-E6E1-4ACB-9A79-87E62359BA70</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6D4C44B9-E6E1-4ACB-9A79-87E62359BA70.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703887689.93973005</real>
+			<key>timeStoppedRecording</key>
+			<real>703887694.38924205</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>6D4C44B9-E6E1-4ACB-9A79-87E62359BA70</string>
+		</dict>
+		<key>6F6714C9-8D8E-4F11-86A6-ED0616244B64</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6F6714C9-8D8E-4F11-86A6-ED0616244B64.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888599.10664201</real>
+			<key>timeStoppedRecording</key>
+			<real>703888599.50746703</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>6F6714C9-8D8E-4F11-86A6-ED0616244B64</string>
+		</dict>
+		<key>72EBFA57-CE43-4938-A999-BAC2D5522552</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>72EBFA57-CE43-4938-A999-BAC2D5522552.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889043.36484599</real>
+			<key>timeStoppedRecording</key>
+			<real>703889044.09064603</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>72EBFA57-CE43-4938-A999-BAC2D5522552</string>
+		</dict>
+		<key>76869908-EF2A-48AB-BF05-0DB0D2CD6CE8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>76869908-EF2A-48AB-BF05-0DB0D2CD6CE8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703887976.78698695</real>
+			<key>timeStoppedRecording</key>
+			<real>703887978.00801802</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>76869908-EF2A-48AB-BF05-0DB0D2CD6CE8</string>
+		</dict>
+		<key>7A55F9D2-0FF7-4AC1-A393-590D030717AB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7A55F9D2-0FF7-4AC1-A393-590D030717AB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889069.09832895</real>
+			<key>timeStoppedRecording</key>
+			<real>703889069.80071199</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>7A55F9D2-0FF7-4AC1-A393-590D030717AB</string>
+		</dict>
+		<key>9E88C6E2-B1D6-49DA-8481-4F33160B752E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9E88C6E2-B1D6-49DA-8481-4F33160B752E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889220.25337601</real>
+			<key>timeStoppedRecording</key>
+			<real>703889220.94596004</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>9E88C6E2-B1D6-49DA-8481-4F33160B752E</string>
+		</dict>
+		<key>A07C25BC-D804-4557-924D-6D18E17BBB7E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A07C25BC-D804-4557-924D-6D18E17BBB7E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703887352.45211005</real>
+			<key>timeStoppedRecording</key>
+			<real>703887352.54210901</real>
+			<key>title</key>
+			<string>Clean ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>A07C25BC-D804-4557-924D-6D18E17BBB7E</string>
+		</dict>
+		<key>A9B93BBA-9753-4CF4-A836-3171777A5131</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A9B93BBA-9753-4CF4-A836-3171777A5131.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889030.38281596</real>
+			<key>timeStoppedRecording</key>
+			<real>703889030.47832894</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>A9B93BBA-9753-4CF4-A836-3171777A5131</string>
+		</dict>
+		<key>B1940CBA-6B47-48A5-841A-13BC2474C012</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B1940CBA-6B47-48A5-841A-13BC2474C012.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889434.99525702</real>
+			<key>timeStoppedRecording</key>
+			<real>703889435.76727796</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>B1940CBA-6B47-48A5-841A-13BC2474C012</string>
+		</dict>
+		<key>B2C1170C-2E13-4DB8-8A7F-43A7E5BC8A58</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B2C1170C-2E13-4DB8-8A7F-43A7E5BC8A58.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888872.70833099</real>
+			<key>timeStoppedRecording</key>
+			<real>703888873.57070506</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>B2C1170C-2E13-4DB8-8A7F-43A7E5BC8A58</string>
+		</dict>
+		<key>BD54BE18-B60E-4A7A-AA53-751DE7DD6979</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BD54BE18-B60E-4A7A-AA53-751DE7DD6979.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889097.72783995</real>
+			<key>timeStoppedRecording</key>
+			<real>703889098.43567896</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>BD54BE18-B60E-4A7A-AA53-751DE7DD6979</string>
+		</dict>
+		<key>BE22299F-9707-416B-AD8D-724273FE1B82</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BE22299F-9707-416B-AD8D-724273FE1B82.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888728.99625802</real>
+			<key>timeStoppedRecording</key>
+			<real>703888729.27888894</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>BE22299F-9707-416B-AD8D-724273FE1B82</string>
+		</dict>
+		<key>CF76202C-38D9-4923-97C8-3B40D9134838</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CF76202C-38D9-4923-97C8-3B40D9134838.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888125.37821198</real>
+			<key>timeStoppedRecording</key>
+			<real>703888126.61263895</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>CF76202C-38D9-4923-97C8-3B40D9134838</string>
+		</dict>
+		<key>D6CC25B2-1AF1-4263-8B0B-027D041A9538</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D6CC25B2-1AF1-4263-8B0B-027D041A9538.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703887713.32622397</real>
+			<key>timeStoppedRecording</key>
+			<real>703887713.41556299</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>D6CC25B2-1AF1-4263-8B0B-027D041A9538</string>
+		</dict>
+		<key>F4B12D13-F240-4593-B890-E351E7F9C9A9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F4B12D13-F240-4593-B890-E351E7F9C9A9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703888670.66949403</real>
+			<key>timeStoppedRecording</key>
+			<real>703888670.933272</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>F4B12D13-F240-4593-B890-E351E7F9C9A9</string>
+		</dict>
+		<key>F785CEF9-8D59-412A-9793-D48B6F7DF1E6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F785CEF9-8D59-412A-9793-D48B6F7DF1E6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ARBrush project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ARBrush</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ARBrush</string>
+			<key>timeStartedRecording</key>
+			<real>703889132.81276798</real>
+			<key>timeStoppedRecording</key>
+			<real>703889133.49534404</real>
+			<key>title</key>
+			<string>Build ARBrush</string>
+			<key>uniqueIdentifier</key>
+			<string>F785CEF9-8D59-412A-9793-D48B6F7DF1E6</string>
 		</dict>
 	</dict>
 </dict>
